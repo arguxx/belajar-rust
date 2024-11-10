@@ -18,3 +18,19 @@ fn func_ketiga() {
     println!("-kuda");
     
 }
+
+#[test]
+fn immutable_variable() {
+    let name = "Argian Raditya";
+    print!("my name is {}", name);
+}
+
+#[test]
+fn mutable_varible() {
+    let mut name = "Argian Raditya";
+    println!("my name is {}", name);
+
+    name = "kuda lari";
+    print!("my name is {}", name);
+    
+}
